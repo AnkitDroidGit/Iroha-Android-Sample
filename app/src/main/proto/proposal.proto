@@ -1,7 +1,7 @@
 syntax = "proto3";
 package iroha.protocol;
 
-import "iroha/protocol/block.proto";
+import "app/src/main/proto/block.proto";
 
 message Proposal {
     uint64 height = 1;

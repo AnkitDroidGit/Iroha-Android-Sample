@@ -2,10 +2,10 @@ syntax = "proto3";
 
 package iroha.protocol;
 
-import "iroha/protocol/block.proto";
-import "iroha/protocol/queries.proto";
-import "empty.proto";
-import "iroha/protocol/responses.proto";
+import "app/src/main/proto/block.proto";
+import "app/src/main/proto/queries.proto";
+import "app/src/main/proto/empty.proto";
+import "app/src/main/proto/responses.proto";
 
 
 enum TxStatus {
